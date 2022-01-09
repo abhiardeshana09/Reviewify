@@ -12,12 +12,12 @@ Here are a few gifs to demonstrate the app's functionality.
 
 ### Logging in
 Users can log in with their Spotify accounts via OAuth. Logging in allows users to post reviews and use the search functionality.
-![LoggingIn](demo/Login.gif);
+![LoggingIn](demo/Login.gif)
 
 ### Adding and Deleting Reviews
 When a review is added or deleted, the album data is updated to reflect the changes in the average rating and the number of reviews. The app also ensures that users cannot review a given album more than once.
-![AddingDeleting](demo/AddDelete.gif);
+![AddingDeleting](demo/AddDelete.gif)
 
 ### Searching for Albums
 Logged in users can search for any album via the search bar on the homepage. Results are fetched from the Spotify catalog using the Web API. Once an album has at least one review, it will show up on the homepage.
-![SearchingAlbums](demo/Search.gif);
+![SearchingAlbums](demo/Search.gif)
