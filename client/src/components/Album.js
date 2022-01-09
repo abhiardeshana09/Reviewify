@@ -16,7 +16,7 @@ const Album = ({ album, col, cardStyle }) => {
                     <p className='truncate'>{album.artists}</p>
                     <p className='truncate grey-text'>{album.year}</p>
                     <Box display='flex' alignItems='center'>
-                        <Rating readOnly value={album.rating}/>
+                        <Rating readOnly value={album.rating} precision={0.1}/>
                         <p style={{ marginLeft: '5px' }}><big><b>{+album.rating.toFixed(2) + '/5'}</b></big></p>
                     </Box>
                     <p className='truncate'>{album.reviews + (album.reviews !== 1 ? ' reviews' : ' review')}</p>

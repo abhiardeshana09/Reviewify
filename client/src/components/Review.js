@@ -28,7 +28,7 @@ const Review = ({ review }) => {
                     </div>  
                     <div style={{ marginBottom: '10px' }} className='divider'/>
                     <Box display='flex' alignItems='center'>
-                        <Rating readOnly value={review.rating}/>
+                        <Rating readOnly value={review.rating} precision={0.1}/>
                         <p style={{ marginLeft: '5px' }}><big><b>{+review.rating.toFixed(2) + '/5'}</b></big></p>
                     </Box>
                     <p style={{ marginTop: '5px' }}><big><b>{review.title}</b></big></p>
